@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} hkstudio.in [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://hkstudio.in/$1 [R,L]
+
+
+
